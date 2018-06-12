@@ -136,5 +136,24 @@ namespace 期末作业
             else
                 MessageBox.Show("请先添加商品！");
         }
+
+        private void 查看所有商品ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            button_ShowAll.PerformClick();//等效于显示全部商品按钮
+        }
+
+        private void 编辑ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < indexer; i++)
+            {
+                foreach (ListViewItem li in listBox_Show.Items)//!!!!!!!!!!!!!!!
+                    if (li.Selected)
+                    {
+                        EditGood f = new EditGood(goodlist[li.Index].getname, goodlist[li.Index].getcode, goodlist[li.Index].getprice);
+                        f.ShowDialog();
+                        goodlist[li.Index] = f.getchanged()
+                    }
+            }
+        }
     }
 }

@@ -132,22 +132,23 @@
             // 添加商品ToolStripMenuItem
             // 
             this.添加商品ToolStripMenuItem.Name = "添加商品ToolStripMenuItem";
-            this.添加商品ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.添加商品ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.添加商品ToolStripMenuItem.Text = "添加商品";
             this.添加商品ToolStripMenuItem.Click += new System.EventHandler(this.添加商品ToolStripMenuItem_Click);
             // 
             // 删除商品ToolStripMenuItem
             // 
             this.删除商品ToolStripMenuItem.Name = "删除商品ToolStripMenuItem";
-            this.删除商品ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.删除商品ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.删除商品ToolStripMenuItem.Text = "删除商品";
             this.删除商品ToolStripMenuItem.Click += new System.EventHandler(this.删除商品ToolStripMenuItem_Click);
             // 
             // 查看所有商品ToolStripMenuItem
             // 
             this.查看所有商品ToolStripMenuItem.Name = "查看所有商品ToolStripMenuItem";
-            this.查看所有商品ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.查看所有商品ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.查看所有商品ToolStripMenuItem.Text = "查看所有商品";
+            this.查看所有商品ToolStripMenuItem.Click += new System.EventHandler(this.查看所有商品ToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -157,13 +158,14 @@
             this.全选ToolStripMenuItem,
             this.反选ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(101, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 114);
             // 
             // 编辑ToolStripMenuItem
             // 
             this.编辑ToolStripMenuItem.Name = "编辑ToolStripMenuItem";
-            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.编辑ToolStripMenuItem.Text = "编辑";
+            this.编辑ToolStripMenuItem.Click += new System.EventHandler(this.编辑ToolStripMenuItem_Click);
             // 
             // 删除ToolStripMenuItem
             // 
